@@ -4,7 +4,7 @@
 ## So, I form an equal area grid around the core, calculate the distance from each coordinate to the core, and calculate the optical depth of material between the core and solid.
 ## That optical depth is then used to calculate an attenuated flux that reaches the solid.
 ## Finally, I add the attenuated flux received by the solid from the core to the flux from the background, and convert to temperature at each grid location.
-## NOTE: TEMPERATURE IS THE BLACKBODY TEMPERATURE OF THE SOLID, NOT THE TEMPERATURE EACH LOCATION FEELS!! This is different by a factor of like sqrt(2) or some gubs (see equation below)
+## NOTE: TEMPERATURE IS THE BLACKBODY TEMPERATURE OF THE SOLID, NOT THE TEMPERATURE EACH LOCATION FEELS!! This is different by a factor of like sqrt(2) or something (see equation below)
 
 ##### Package import section ######
 
